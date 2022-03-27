@@ -29,7 +29,7 @@ FashionMnist数据集包括 `60000个训练样本` 和 `10000个测试样本` �
 
 ### 3.构建模型
 
--   LeNetv5
+-   LeNetv5：《Classification_of_Garments_from_Fashion_MNIST_Dataset_Using_CNN_LeNet-5_Architecture》这篇论文测试集准确率达到98.9%，不知道用了什么trick。
 
 -   SimpleNet：
 
