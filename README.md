@@ -75,7 +75,7 @@ FashionMnist数据集包括 `60000个训练样本` 和 `10000个测试样本` �
 
 #### 过程
 
--   Workone.ipynb
+-   fashionmnist_hand.ipynb
 
     -   加载数据（load datasets）：torchvision.datasets.FashionMNIST模块完成
     -   数据处理：构建 `ComputeMeanAndStd` 函数计算均值方差，使用torchvision.transforms.Normalize完成标准化
@@ -85,7 +85,7 @@ FashionMnist数据集包括 `60000个训练样本` 和 `10000个测试样本` �
     -   保存模型：在 `model` 文件夹下
     -   加载模型
 
--   Workone_resnet：
+-   fashionmnist_resnet.ipynb：
 
     ​		同上，但是使用字典一并加载数据的，训练和验证写在了一个函数里面。
 
